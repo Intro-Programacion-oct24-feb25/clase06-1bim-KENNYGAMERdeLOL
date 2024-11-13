@@ -42,6 +42,7 @@ public class EjemploCadenas02 {
                 pais);
         
         System.out.printf("%s", cadenaFinal);
-        //String.format sirve para acumular variables de tipo cadena 
+        //String.format sirve para acumular variables de tipo cadena lojs
+        
     }
 }

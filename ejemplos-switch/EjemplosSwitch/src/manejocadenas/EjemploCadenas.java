@@ -16,8 +16,9 @@ public class EjemploCadenas {
         System.out.printf("%s\n", ciudad.toLowerCase());
         // System.out.printf("%s\n", ciudad.toUpperCase());
         System.out.printf("%s\n", ciudad);
-        // toLowerCase es un método
-        // toUpperCase es un método
-        
+        // toLowerCase es un método para colocar las letras de forma minusculas
+        // toUpperCase es un método para colocar las letras de forma mayusculas 
+        //y en este caso se impre LOJA en mayusculas ya que al inicio hemos colocado solo 
+        //una variable la cual nos dice que LOJA sera escrita de forma mayusculas
     }
 }
