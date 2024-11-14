@@ -23,9 +23,23 @@ public class Ejemplo031 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
+        String nombre;
+        String apellido;
+        String universidad;
+         int  edad;
+         
         
-        System.out.println("Ingrese el nombre de una ciudad del Ecuador");
-        String nombre = entrada.nextLine();
+        System.out.println("Ingrese su nombre");
+        nombre = entrada.nextLine();
+        System.out.println("Ingrese su apellido ");
+        apellido = entrada.nextLine();
+        System.out.println("Ingrese su universidad");
+        universidad= entrada.nextLine();
+        System.out.println("Ingrese su edad");
+        universidad = entrada.nextLine();
+        
+        
+        
         // nombre = "atacames"
         char valor = nombre.charAt(0); // obtener el primer caracter de una
         // ANA DIAZ con edad 19, es estudiante de UTPL
