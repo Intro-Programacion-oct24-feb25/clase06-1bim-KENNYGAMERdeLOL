@@ -42,15 +42,51 @@ public class Ejemplo021 {
 
             case 2:
                  mesCadena = "febrero";
-                
                 break;
+            case 3: 
+                 mesCadena = "marzo";
+                break;
+            case 4:
+                 mesCadena = "abril";
+                break;
+            case 5: 
+                 mesCadena = "mayo";
+                break;
+            case 6: 
+                 mesCadena = "junio";
+                break;
+            case 7:
+                mesCadena = "julio";
+                break;
+            case 8:
+                mesCadena = "agosto";
+                break;
+            case 9:
+                mesCadena = "septiembre";
+                break;
+            case 10: 
+                mesCadena = "octubre";
+                break;
+            case 11: 
+                 mesCadena = "noviembre";
+                break;
+            case 12: 
+                 mesCadena = "diciembre";
+                break;
+
+
 
            
 
             default:
-                System.out.println("Opción incorrecta");
-                break;
+                mesCadena = "mes no reconocido";
+                
         }
+        
+        System.out.printf("Usted a nacido el %d de %s del año %d"
+                ,diaNacimiento,
+                 mesCadena,
+                 yearNacimiento);
 
     }
 }
